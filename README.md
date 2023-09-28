@@ -5,7 +5,8 @@ The code takes as input, in order, these four values: current focal length, curr
 ## Running the program
 Just open the run.sh file, and it will execute the program in a Terminal.
 ## Compiling the program
-Just run the following in a command line, in project directory:
+If you feel uncomfortable executing the compiled version, just run the following in a command line, in project directory:
 ```shell
 $ g++ -o <ReFrame> ReFrame.cpp
 ```
+That way you will have your own personal compile.
