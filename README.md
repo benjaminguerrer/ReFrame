@@ -4,3 +4,8 @@ A simple reframing calculator made in C++11 for the Terminal. It's designed to f
 The code takes as input, in order, these four values: current focal length, current distance from subject, target static value, and type of operation (either find focal length or distance, with a char input 'd' or 'f', either upper or lower cased)
 ## Running the program
 Just open the run.sh file, and it will execute the program in a Terminal.
+## Compiling the program
+Just run the following in a command line, in project directory:
+```shell
+$ g++ -o <ReFrame> ReFrame.cpp
+```
