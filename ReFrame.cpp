@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <ctype.h>
 #include <sstream>
 #include <cmath>
@@ -166,5 +166,9 @@ int main() {
 	cout << "\nFocal Length: " << p << "mm \nDistance: " << q << units << "\nTarget: " << r << targetUnit << endl;
 
 	cout << "\n\n*************************"<< "\n\nTo conserve the framing, \nyou would have to " << resultPres << reFrame.calculate(s) << res << "\n\n*************************\n\n";
+	cout << "\nPress any key to exit the program...";
+	cin.clear();
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	cin.get();
 	return 0;
 }
