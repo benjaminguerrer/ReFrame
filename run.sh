@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-~/Documents/ReFrame/ReFrame
+./ReFrame
 read -p "Press any key to exit..."
